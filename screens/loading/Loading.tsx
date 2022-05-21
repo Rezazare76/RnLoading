@@ -67,7 +67,7 @@ const styles = StyleSheet.create({
     backgroundColor:'white',
   },
   loadingContainer: {
-  
+
     alignItems: 'center',
     justifyContent: 'center',
     flexDirection:'column',
@@ -86,7 +86,7 @@ const styles = StyleSheet.create({
   loading:{
     textAlign:'center',
     position:'absolute',
-   
+    display:'flex',
     justifyContent:'space-around',
     flexDirection:'row'
   },
@@ -101,7 +101,7 @@ const styles = StyleSheet.create({
     borderColor:'#079082',
     borderRadius:600,
     padding:50,
-  
+    display:'flex',
     justifyContent:'center',
     alignItems:'center',
     position:'relative',
